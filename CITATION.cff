@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SimplexGate-3D: Uncertainty-Gated Hybrid Solver Routing with Exact Simplicial Conservation for Multi-Scale Astrophysical Simulations"
+version: 1.0.0
+date-released: 2026-10-20
+license: MIT
+repository-code: "https://github.com/AbhinavDwivedi1008/SimplexGate-3D"
+authors:
+  - family-names: "Dwivedi"
+    given-names: "Abhinav Bhupesh"
+    orcid: "https://orcid.org/0009-0000-8207-0990"
