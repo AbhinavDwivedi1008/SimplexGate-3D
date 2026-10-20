@@ -1,5 +1,7 @@
 # SimplexGate-3D
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23489461.svg)](https://doi.org/10.5281/zenodo.23489461)
+
 **Uncertainty-Gated Hybrid Solver Routing with Exact Simplicial Conservation for Multi-Scale Astrophysical Simulations**
 
 **Author:** Abhinav Bhupesh Dwivedi (Department of Computer Science, University of York)  
