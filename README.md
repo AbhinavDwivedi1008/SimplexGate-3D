@@ -13,7 +13,7 @@
 
 To address conservation drift in soft-penalty Physics-Informed Neural Networks (PINNs) and extrapolation failures under Out-of-Distribution (OOD) shift, `SimplexGate-3D` combines:
 1. **Analytic 3-Way Simplicial Projection:** Constrains predicted remnant mass fractions ($\alpha_{\text{star}}, \alpha_{\text{BH}}, \alpha_{\text{eject}}$) to the unit 2-simplex $\Delta^2$, preserving mass balance to 32-bit floating-point precision ($10^{-7}\%$).
-2. **Epistemic Uncertainty-Gated Batching:** Evaluates ensemble variance $\mathcal{U}(\mathbf{z})$ over six dimensionless physical invariants ($M_{\text{cloud}}, \alpha_{\text{vir}}, \lambda_{\text{spin}}, \mathcal{A}_{\text{triax}}, \eta_{\text{div}}, \mathcal{C}_{\text{rel}}$), resolving low-variance In-Distribution (ID) collapses on the neural branch (`0.4 ms`) while batching high-variance OOD events to the 3D SPH solver on the GPU.
+2. **Epistemic Uncertainty-Gated Batching:** Evaluates ensemble variance $\mathcal{U}(\mathbf{z})$ over six dimensionless physical invariants ($M_{\mathrm{cloud}}$, $\alpha_{\mathrm{vir}}$, $\lambda_{\mathrm{spin}}$, $A_{\mathrm{triax}}$, $\eta_{\mathrm{div}}$, $C_{\mathrm{rel}}$), resolving low-variance In-Distribution (ID) collapses on the neural branch (`0.4 ms`) while batching high-variance OOD events to the 3D SPH solver on the GPU.
 
 ---
 
